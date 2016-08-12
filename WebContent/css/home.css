@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.css-projectadd{
+	position: relative;;
+	top:15px;
+	padding-right: 0px;
+	text-align: right;
+}
+.css-tabletext{
+	position: relative;;
+	left:2%;
+	width:98%;
+	top:25px;
+}
+.css-projectname{
+	text-align: left;
+}
+.css-projectdeletebtn{
+	width: 50px;
+}

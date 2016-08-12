@@ -66,11 +66,10 @@ body {
 	font-size: 10pt;
 	font-weight: 500;
 	height: 65px;
-	font-family: "PingFang SC", "Helvetica Neue", Helvetica,
-		"Hiragino Sans GB", Arial, "Microsoft YaHei", "微软雅黑", sans-serif,
+	font-family:  "微软雅黑", sans-serif,
 		"Segoe UI Emoji", "Segoe UI Symbol";
 	/* width: 100px; */
-	color: #96989B;
+	color: #666666;
 	cursor: pointer;
 	overflow: hidden;
 	float: left;
