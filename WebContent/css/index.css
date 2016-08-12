@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";
+
+@media screen and (max-width:700px) {
+	.css-titleslist {
+		display: none;
+	}
+	.css-user {
+		display: none;
+	}
+}
+
+body {
+	background-color: #F0F2F5;
+}
+/*start of header  */
+.css-header {
+	width: 100%;
+	background-color: #ffffff;
+	position: fixed;
+	z-index: 999;
+	height: 65px;
+	box-shadow: 2px 2px 1px #bbbbbb;
+}
+
+.css-headercon {
+	
+}
+
+.css-logos {
+	position: relative;
+	float: left;
+	padding-left: 0px;
+	height: 65px;
+	padding-top: 8px;
+	width: 250px;
+}
+
+.css-logo {
+	
+}
+
+.css-logoImg {
+	height: 29px;
+	width: 50px;
+}
+
+.css-logoName {
+	position: relative;
+	top: 5px;
+	font-family: cursive;
+	color: #34495E;
+	font-weight: 800;
+	font-size: 20pt;
+	font-family: cursive;
+}
+
+.css-titleslist {
+	float: left;
+	overflow: hidden;
+}
+
+.css-titles {
+	position: relative;
+	line-height: 65px;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: 500;
+	height: 65px;
+	font-family: "PingFang SC", "Helvetica Neue", Helvetica,
+		"Hiragino Sans GB", Arial, "Microsoft YaHei", "微软雅黑", sans-serif,
+		"Segoe UI Emoji", "Segoe UI Symbol";
+	/* width: 100px; */
+	color: #96989B;
+	cursor: pointer;
+	overflow: hidden;
+	float: left;
+	min-width: 120px;
+}
+
+.css-titles:hover {
+	color: #ffffff;
+	background-color: #34495E;
+}
+
+.css-user {
+	position: relative;
+	float: right;
+	top: 5px;
+	text-align: right;
+	padding-right: 0px;
+	right: 0px;
+	cursor: pointer;
+}
+
+.css-clear {
+	clear: both;
+}
+
+.css-headerimg {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+.css-headerimg:HOVER {
+	
+}
+/*end of header  */
+
+/*start of body  */
+.css-body {
+	position: relative;
+	top: 80px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: -1px 1px 1px #bbbbbb;
+	min-height: 920px;
+}
+/*start of bodyheader  */
+.css-bodyheader {
+	position: relative;
+	padding-top: 10px;
+	color: #34495E;
+	font-weight: 800;
+	font-size: 14pt;
+}
+
+.css-bodytitleleft {
+	background: #34495E;
+	width: 10px;
+}
+
+.css-bodytitlebottom {
+	position: relative;
+	top: 5px;
+	width: 100%;
+	height: 5px;
+	background: #34495E;
+	width: 100%;
+}
+
+/*start of footer  */
+.css-footer {
+	/* position: relative; */
+	position: relative;
+	top: 82px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #2B3747;
+	height: 100px;
+	color: #ffffff;
+}
+
+.css-footerleft {
+	position: relative;
+	top: 5px;
+}
+
+.css-footerlogoName {
+	position: relative;
+	top: 5px;
+	font-family: cursive;
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 14pt;
+	font-family: cursive;
+}
+
+.css-footerright {
+	position: relative;
+	text-align: right;
+	padding-right: 0px;
+	top: 75px;
+	font-size: 10pt;
+}
